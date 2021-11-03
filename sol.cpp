@@ -20,7 +20,7 @@ int main() {
 				mp[s] = (i == 0 ? c : mp[s] + c);
 			}
 		}
-		// store the elements of the map into a pairs of string and long long vectors
+		// store the elements of the map into a pairs of string and long long vector
 		vector<pair<string, long long>> vec;
 		for (auto& e : mp) {
 			vec.push_back(make_pair(e.first, e.second));
